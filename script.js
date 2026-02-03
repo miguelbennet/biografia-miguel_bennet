@@ -1,3 +1,5 @@
+console.log("SCRIPT ATUALIZADO:", "2026-02-02-01");
+
 const MAINTENANCE = false; // true liga, false desliga
 
 const isMaintenancePage =
@@ -138,5 +140,6 @@ if (!MAINTENANCE && isMaintenancePage) {
     });
   }
 })();
+
 
 
