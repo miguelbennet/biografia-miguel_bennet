@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carreira • Mig • OneStateRP</title>
+  <meta name="description" content="Carreira do Mig no OneStateRP: formação, unidades e atuação." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="dot"></span>
+      <span>Mig • Serviço & Operações • OneState</span>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="sobre.html" data-nav="sobre">Perfil</a>
+      <a href="carreira.html" data-nav="carreira">Carreira</a>
+      <a href="funcoes.html" data-nav="funcoes">Especialidades</a>
+      <a href="links.html" data-nav="links">Contato</a>
+    </nav>
+
+    <div class="actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Alternar tema">☾</button>
+    </div>
+  </header>
+
+  <main class="container page" data-page="trajeto">
+    <div class="page-head">
+      <h1>Carreira</h1>
+      <p class="muted">Uma trajetória se mede por constância, não por pose.</p>
+      <div class="crumbs">
+        <a href="index.html">Home</a> <span>›</span> <span>Carreira</span>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Linha do tempo</h2>
+        <p class="muted">Troca as datas e ajusta conforme teu RP.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-card card">
+            <div class="t-top">
+              <span class="t-role">Formação</span>
+              <span class="t-year">2024</span>
+            </div>
+            <h3>Entrada em serviço</h3>
+            <p>
+              Início da carreira com base em procedimento, disciplina e preparo físico.
+              Foco em patrulhamento, comunicação e leitura de cenário.
+            </p>
+          </div>
+        </div>
+
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-card card">
+            <div class="t-top">
+              <span class="t-role">Operacional</span>
+              <span class="t-year">2025</span>
+            </div>
+            <h3>Atuação em ocorrências e suporte</h3>
+            <p>
+              Crescimento em serviço: resposta a ocorrências, apoio a equipes e postura profissional.
+              Desenvolvimento de controle de crise e trabalho em equipe.
+            </p>
+          </div>
+        </div>
+
+        <div class="t-item">
+          <div class="t-dot"></div>
+          <div class="t-card card">
+            <div class="t-top">
+              <span class="t-role">Especialização</span>
+              <span class="t-year">2026</span>
+            </div>
+            <h3>Medicina tática e coordenação</h3>
+            <p>
+              Integração de atendimento de emergência com operação: triagem, estabilização e evacuação,
+              sempre com segurança de cena e comunicação clara.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-row">
+        <a class="btn primary" href="funcoes.html">Ver especialidades</a>
+        <a class="btn ghost" href="links.html">Contato</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Mig • OneStateRP</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

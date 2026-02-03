@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mig • OneStateRP</title>
+  <meta name="description" content="Biografia de carreira do Mig no OneStateRP: operações, serviço e medicina tática." />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="dot"></span>
+      <span>Mig • Serviço & Operações • OneState</span>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="sobre.html" data-nav="sobre">Perfil</a>
+      <a href="carreira.html" data-nav="carreira">Carreira</a>
+      <a href="funcoes.html" data-nav="funcoes">Especialidades</a>
+      <a href="links.html" data-nav="links">Contato</a>
+    </nav>
+
+    <div class="actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Alternar tema">☾</button>
+    </div>
+  </header>
+
+  <main class="container page" data-page="home">
+    <section class="hero">
+      <div class="hero-left">
+        <p class="badge">Ficha de carreira • OneStateRP</p>
+
+        <h1>
+          Eu sou <span class="grad">Mig</span>.
+          <br />
+          <span class="soft">Polícia • Exército • Medicina Tática.</span>
+        </h1>
+
+        <p class="subtitle">
+          Disciplina, procedimento e responsabilidade. Minha atuação no OneState é baseada em
+          operação bem planejada, atendimento sob pressão e respeito total ao protocolo.
+          Aqui tu vê minha carreira, especialidades e contato.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="carreira.html">Ver carreira</a>
+          <a class="btn ghost" href="funcoes.html">Especialidades</a>
+          <a class="btn ghost" href="links.html">Contato</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">+120</div>
+            <div class="stat-label">Horas de serviço</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">+35</div>
+            <div class="stat-label">Ocorrências atendidas</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">+18</div>
+            <div class="stat-label">Atendimentos críticos</div>
+          </div>
+        </div>
+
+        <div class="quick-grid">
+          <a class="qcard" href="sobre.html">
+            <div class="qtitle">Perfil</div>
+            <div class="qtext">Postura profissional, valores e padrão de atuação.</div>
+          </a>
+          <a class="qcard" href="carreira.html">
+            <div class="qtitle">Carreira</div>
+            <div class="qtext">Linha do tempo: formação, unidades e operações.</div>
+          </a>
+          <a class="qcard" href="funcoes.html">
+            <div class="qtitle">Especialidades</div>
+            <div class="qtext">Policiamento, tática, medicina, comando e apoio.</div>
+          </a>
+          <a class="qcard" href="links.html">
+            <div class="qtitle">Contato</div>
+            <div class="qtext">Discord, chamado rápido e links importantes.</div>
+          </a>
+        </div>
+      </div>
+
+      <aside class="card profile">
+        <div class="pfp" aria-hidden="true">
+          <div class="pfp-inner">MG</div>
+        </div>
+
+        <div class="profile-info">
+          <h2>Mig</h2>
+          <p class="role">Oficial Operacional • Médico Tático • OneState</p>
+        </div>
+
+        <div class="chip-row">
+          <span class="chip">Procedimento</span>
+          <span class="chip">Tática</span>
+          <span class="chip">Socorro</span>
+          <span class="chip">Comando</span>
+        </div>
+
+        <div class="links">
+          <button class="link link-btn" data-copy="miguel_bennet" type="button">
+            <span>Copiar Discord</span>
+            <span class="hint">miguel_bennet</span>
+          </button>
+
+          <a class="link" href="https://play.google.com/store/apps/details?id=com.Chillgaming.oneState" target="_blank" rel="noreferrer">
+            <span>Baixe o OneStateRP!</span>
+            <span class="hint">abrir</span>
+          </a>
+
+          <a class="link" href="https://www.tiktok.com/@miguel_bennet_rp?_r=1&_t=ZS-93bIpPvelIC" target="_blank" rel="noreferrer">
+            <span>TikTok</span>
+            <span class="hint">abrir</span>
+          </a>
+        </div>
+
+        <p class="mini">
+          Atuação centrada em protocolo, segurança e resultado. Sem improviso perigoso.
+        </p>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Mig • OneStateRP</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

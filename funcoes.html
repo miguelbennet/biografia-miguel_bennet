@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Especialidades • Mig • OneStateRP</title>
+  <meta name="description" content="Especialidades do Mig no OneStateRP: polícia, exército e medicina tática." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="dot"></span>
+      <span>Mig • Serviço & Operações • OneState</span>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="sobre.html" data-nav="sobre">Perfil</a>
+      <a href="carreira.html" data-nav="carreira">Carreira</a>
+      <a href="funcoes.html" data-nav="funcoes">Especialidades</a>
+      <a href="links.html" data-nav="links">Contato</a>
+    </nav>
+
+    <div class="actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Alternar tema">☾</button>
+    </div>
+  </header>
+
+  <main class="container page" data-page="funcoes">
+    <div class="page-head">
+      <h1>Especialidades</h1>
+      <p class="muted">O que eu faço, como eu faço, e por que funciona.</p>
+      <div class="crumbs">
+        <a href="index.html">Home</a> <span>›</span> <span>Especialidades</span>
+      </div>
+    </div>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Áreas de atuação</h3>
+        <div class="tags">
+          <span class="tag">Policiamento e abordagem</span>
+          <span class="tag">Operação tática e contenção</span>
+          <span class="tag">Medicina de emergência</span>
+          <span class="tag">Triagem e estabilização</span>
+          <span class="tag">Coordenação em cena</span>
+        </div>
+
+        <div class="divider"></div>
+        <p class="muted">
+          A ideia é simples: manter gente viva, manter controle e resolver com segurança.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Como eu somo</h3>
+        <div class="accordion">
+          <button class="acc-btn" type="button" aria-expanded="false">
+            <span>Polícia: protocolo e controle</span>
+            <span class="acc-ico">+</span>
+          </button>
+          <div class="acc-panel">
+            <p class="muted">
+              Abordagem com segurança, comunicação objetiva e tomada de decisão responsável.
+              Menos show, mais procedimento.
+            </p>
+          </div>
+
+          <button class="acc-btn" type="button" aria-expanded="false">
+            <span>Exército: disciplina e tática</span>
+            <span class="acc-ico">+</span>
+          </button>
+          <div class="acc-panel">
+            <p class="muted">
+              Organização de equipe, noção de perímetro, leitura de risco e execução em conjunto.
+              Operação boa é silenciosa e eficiente.
+            </p>
+          </div>
+
+          <button class="acc-btn" type="button" aria-expanded="false">
+            <span>Médico: atendimento sob pressão</span>
+            <span class="acc-ico">+</span>
+          </button>
+          <div class="acc-panel">
+            <p class="muted">
+              Triagem rápida, estabilização e encaminhamento. Prioridade é manter o cenário seguro
+              antes de agir, porque herói morto não atende ninguém.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="cta-row">
+      <a class="btn primary" href="carreira.html">Ver carreira</a>
+      <a class="btn ghost" href="links.html">Contato</a>
+    </div>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Mig • OneStateRP</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

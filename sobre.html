@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perfil • Mig • OneStateRP</title>
+  <meta name="description" content="Perfil profissional do Mig no OneStateRP: conduta, valores e padrão de atuação." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="dot"></span>
+      <span>Mig • Serviço & Operações • OneState</span>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="sobre.html" data-nav="sobre">Perfil</a>
+      <a href="carreira.html" data-nav="carreira">Carreira</a>
+      <a href="funcoes.html" data-nav="funcoes">Especialidades</a>
+      <a href="links.html" data-nav="links">Contato</a>
+    </nav>
+
+    <div class="actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Alternar tema">☾</button>
+    </div>
+  </header>
+
+  <main class="container page" data-page="sobre">
+    <div class="page-head">
+      <h1>Perfil profissional</h1>
+      <p class="muted">
+        Conduta, valores e padrão. Quem trabalha em operação não vive de “achismo”.
+      </p>
+      <div class="crumbs">
+        <a href="index.html">Home</a> <span>›</span> <span>Perfil</span>
+      </div>
+    </div>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Minha postura</h3>
+        <p>
+          No OneState, eu atuo com mentalidade de serviço: primeiro garantir segurança do cenário,
+          depois estabilizar, depois executar. Seja numa ocorrência policial, numa ação tática ou
+          num atendimento de emergência, eu sigo procedimento e mantenho controle.
+        </p>
+
+        <div class="bullets">
+          <div class="bullet">
+            <span class="bicon">🧭</span>
+            <div>
+              <b>Prioridade</b>
+              <p>Segurança, comunicação clara e execução limpa.</p>
+            </div>
+          </div>
+          <div class="bullet">
+            <span class="bicon">🛡️</span>
+            <div>
+              <b>Conduta</b>
+              <p>Disciplina e respeito ao protocolo acima de ego.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>O que eu valorizo</h3>
+        <div class="tags">
+          <span class="tag">Procedimento e cadeia de comando</span>
+          <span class="tag">Comunicação objetiva</span>
+          <span class="tag">Segurança de cena</span>
+          <span class="tag">Treinamento e preparo</span>
+          <span class="tag">Responsabilidade com civil</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <p class="muted">
+          Isso é o que mantém uma equipe inteira viva e funcional. O resto é barulho.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn primary" href="carreira.html">Ver carreira</a>
+          <a class="btn ghost" href="funcoes.html">Especialidades</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Resumo em 3 pontos</h2>
+        <p class="muted">Pra quem não tem tempo (e tá certo).</p>
+      </div>
+
+      <div class="cards3">
+        <article class="card">
+          <h3>Operação</h3>
+          <p class="muted">Planejamento, patrulha, contenção e coordenação.</p>
+        </article>
+        <article class="card">
+          <h3>Medicina</h3>
+          <p class="muted">Atendimento rápido, triagem e estabilização em campo.</p>
+        </article>
+        <article class="card">
+          <h3>Disciplina</h3>
+          <p class="muted">Protocolo, responsabilidade e consistência.</p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Mig • OneStateRP</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
