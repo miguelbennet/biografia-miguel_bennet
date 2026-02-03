@@ -1,4 +1,4 @@
-const MAINTENANCE = true; // true liga, false desliga
+const MAINTENANCE = false; // true liga, false desliga
 
 const isMaintenancePage =
   location.pathname.endsWith("/manutencao.html") ||
@@ -138,4 +138,5 @@ if (!MAINTENANCE && isMaintenancePage) {
     });
   }
 })();
+
 
