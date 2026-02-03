@@ -1,17 +1,17 @@
-console.log("SCRIPT ATUALIZADO:", "2026-02-02-01");
+const MAINTENANCE = true; // true liga, false desliga
 
-const MAINTENANCE = false; // true liga, false desliga
+const isMaintenance = location.pathname.endsWith("manutencao.html");
 
-const isMaintenancePage =
-  location.pathname.endsWith("/manutencao.html") ||
-  location.pathname.endsWith("manutencao.html");
+// URLs absolutas calculadas a partir do lugar onde o site está (/biografia-miguel_bennet/)
+const maintenanceUrl = new URL("manutencao.html", location.href).href;
+const homeUrl = new URL("index.html", location.href).href;
 
-if (MAINTENANCE && !isMaintenancePage) {
-  location.replace("manutencao.html");
+if (MAINTENANCE && !isMaintenance) {
+  location.replace(maintenanceUrl);
 }
 
-if (!MAINTENANCE && isMaintenancePage) {
-  location.replace("index.html");
+if (!MAINTENANCE && isMaintenance) {
+  location.replace(homeUrl);
 }
 
 // Tema + toast + copiar + nav ativo + accordion (funcoes)
@@ -140,6 +140,7 @@ if (!MAINTENANCE && isMaintenancePage) {
     });
   }
 })();
+
 
 
 
